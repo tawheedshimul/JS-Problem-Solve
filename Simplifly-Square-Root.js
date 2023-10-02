@@ -8,7 +8,6 @@ function simplifySquareRoot(number) {
     while (number % (i * i) === 0) {
       if (result !== "") {
         result = i ;
-        // result += " * "
       }
       result += i;
       number /= i * i;
